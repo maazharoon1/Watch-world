@@ -177,7 +177,7 @@ export const HeroSequence: React.FC = () => {
         <canvas
           ref={canvasRef}
           role="img"
-          aria-label="Watch world timepiece, rotating as you scroll"
+          aria-label="Royal Timepiece Collection timepiece, rotating as you scroll"
           className="hero-canvas absolute inset-0 z-10 h-full w-full object-contain pointer-events-none"
         />
 
@@ -192,7 +192,7 @@ export const HeroSequence: React.FC = () => {
         >
           {/* Main Display Heading */}
           <h1 className="hero-heading font-serif text-5xl sm:text-6xl tracking-[0.04em] text-neutral-900 font-normal leading-[1.05]">
-            Watch world
+            Royal Timepiece Collection
           </h1>
         </div>
 

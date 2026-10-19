@@ -7,7 +7,7 @@ export function AboutPage({ onExplore, onContact }: { onExplore: () => void; onC
   return (
     <div className="about-page">
       <section className="about-intro page-shell">
-        <p className="eyebrow">The world of Watch world</p>
+        <p className="eyebrow">The world of Royal Timepiece Collection</p>
         <div className="about-intro-grid">
           <h1 tabIndex={-1} className="display-heading">More than time.<br /><em>A lasting feeling.</em></h1>
           <div className="about-intro-copy">
@@ -24,7 +24,7 @@ export function AboutPage({ onExplore, onContact }: { onExplore: () => void; onC
 
       <Reveal><section id="about-philosophy" className="page-shell about-story">
         <div><p className="eyebrow">01 / Our philosophy</p><h2 className="section-heading">A considered collection.<br /><em>A personal connection.</em></h2></div>
-        <div className="story-prose"><p>At Watch world, our appreciation begins with the details: the curve of a case, the balance of a dial, the quiet rhythm of a mechanical movement.</p><p>We bring together timepieces for people who see a watch as more than an instrument. An everyday companion. A reminder of a milestone. An expression of individual taste.</p><p>Our approach is simple: thoughtful selection, enduring design, and a conversation that starts with you.</p></div>
+        <div className="story-prose"><p>At Royal Timepiece Collection, our appreciation begins with the details: the curve of a case, the balance of a dial, the quiet rhythm of a mechanical movement.</p><p>We bring together timepieces for people who see a watch as more than an instrument. An everyday companion. A reminder of a milestone. An expression of individual taste.</p><p>Our approach is simple: thoughtful selection, enduring design, and a conversation that starts with you.</p></div>
       </section></Reveal>
 
       <section className="about-values"><div className="page-shell">

@@ -50,9 +50,9 @@ export const Navbar: React.FC<NavbarProps> = ({
               onHome();
               setMobileMenuOpen(false);
             }}
-            className="brand-wordmark text-left font-serif text-lg sm:text-xl tracking-[0.2em] uppercase text-neutral-900 hover:text-red-800 transition-colors duration-200 cursor-pointer font-medium"
+            className="brand-wordmark max-w-[240px] lg:max-w-[300px] text-left font-serif text-lg sm:text-xl tracking-[0.2em] uppercase text-neutral-900 hover:text-red-800 transition-colors duration-200 cursor-pointer font-medium"
           >
-            Watch world
+            Royal Timepiece Collection
           </button>
 
           {/* Desktop Navigation Links (Zone 2) */}
@@ -175,7 +175,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span>Cart ({cartCount})</span>
             </button>
             <div className="text-[11px] text-neutral-600 text-center tracking-wider">
-              <a href="https://www.facebook.com/profile.php?id=61594969965360" target="_blank" rel="noopener noreferrer" className="hover:text-red-700 transition-colors">Watch world on Facebook</a>
+              <a href="https://www.facebook.com/messages/t/1376027015594374" target="_blank" rel="noopener noreferrer" className="hover:text-red-700 transition-colors">Message Royal Timepiece Collection</a>
             </div>
           </div>
         </div>

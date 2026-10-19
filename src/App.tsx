@@ -39,7 +39,7 @@ export default function App() {
     return () => window.removeEventListener('hashchange', handleRoute);
   }, []);
   useEffect(() => {
-    document.title = page === 'home' ? 'Watch world' : `${page === 'about' ? 'Our Story' : 'Checkout'} | Watch world`;
+    document.title = page === 'home' ? 'Royal Timepiece Collection' : `${page === 'about' ? 'Our Story' : 'Checkout'} | Royal Timepiece Collection`;
     const section = route.startsWith('/?section=') ? route.split('=')[1] : '';
     if (section) document.getElementById(section)?.scrollIntoView({ behavior: 'instant' });
     else window.scrollTo({ top: 0, behavior: 'instant' });
